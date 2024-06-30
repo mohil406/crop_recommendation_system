@@ -7,7 +7,7 @@ import io
 from PIL import Image
 import streamlit as st
 
-crop_recommendation_model_path = r"NBClassifier.pkl"
+crop_recommendation_model_path = r"Crop-Recommendation-System-main/NBClassifier.pkl"
 crop_recommendation_model = pickle.load(
     open(crop_recommendation_model_path, 'rb'))
 def weather_fetch(city_name):
