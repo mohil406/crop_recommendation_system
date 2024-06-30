@@ -31,7 +31,7 @@ def weather_fetch(city_name):
         return temperature, humidity
     else:
         return None
-st.image(r"_1decc881-87b6-4ae2-8065-00f0fc00d906.jpeg",use_column_width=True)
+st.image(r"Crop-Recommendation-System-main/_1decc881-87b6-4ae2-8065-00f0fc00d906.jpeg",use_column_width=True)
 st.title('Crop Recommender')
 N = st.number_input('Ratio of Nitrogen Content in soil',min_value = 0,max_value = 140, value = 10)
 P = st.number_input("Ratio of Phosphorun Content in soil",min_value = 0,max_value = 140, value = 10)
@@ -49,4 +49,4 @@ else:
 button = st.button("Recommend")
 if(button):
     st.write('You should grow {}'.format(final_prediction))
-st.image(r'Screenshot 2024-04-09 181745.png')
+st.image(r'Crop-Recommendation-System-main/Screenshot 2024-04-09 181745.png')
